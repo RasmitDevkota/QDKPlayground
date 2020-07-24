@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\playground.qs.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\playground.qs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\playground.qs.csproj",
+        "projectName": "playground.qs",
+        "projectPath": "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\playground.qs.csproj",
+        "packagesPath": "C:\\Users\\md_sh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\md_sh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Quantum.CsharpGeneration": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.12.20070124, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.EntryPointDriver": {
+              "target": "Package",
+              "version": "[0.12.20070124, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.QSharp.Core": {
+              "target": "Package",
+              "version": "[0.12.20070124, )"
+            },
+            "Microsoft.Quantum.Runtime.Core": {
+              "target": "Package",
+              "version": "[0.12.20070124, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Simulators": {
+              "target": "Package",
+              "version": "[0.12.20070124, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Standard": {
+              "target": "Package",
+              "version": "[0.12.20070124, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
