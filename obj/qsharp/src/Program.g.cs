@@ -35,28 +35,36 @@ using Microsoft.Quantum.Simulation.Core;
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Collapse023\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":279,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
 [assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Collapse123\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":299,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q0\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":23},\"Item2\":{\"Line\":1,\"Column\":25}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":34},\"Item2\":{\"Line\":1,\"Column\":36}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":45},\"Item2\":{\"Line\":1,\"Column\":47}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q3\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":56},\"Item2\":{\"Line\":1,\"Column\":58}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Collapse123\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":299,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"CollapseAll\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":319,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q0\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":23},\"Item2\":{\"Line\":1,\"Column\":25}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":34},\"Item2\":{\"Line\":1,\"Column\":36}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":45},\"Item2\":{\"Line\":1,\"Column\":47}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q3\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":56},\"Item2\":{\"Line\":1,\"Column\":58}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"CollapseAll\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":319,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"CollapseTest\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":339,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q0\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":26}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":35},\"Item2\":{\"Line\":1,\"Column\":37}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":46},\"Item2\":{\"Line\":1,\"Column\":48}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q3\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":57},\"Item2\":{\"Line\":1,\"Column\":59}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"CollapseTest\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":339,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"TestDifference\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":394,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":25}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"TestDifference\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":394,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":25}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Entanglement\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":444,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Entanglement\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":444,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"RunEntangle\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":474,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"RunEntangle\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":474,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Entangle\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":504,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q0\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":20},\"Item2\":{\"Line\":1,\"Column\":22}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":31},\"Item2\":{\"Line\":1,\"Column\":33}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Result\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Entangle\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":504,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"EntangleWithParticle\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":519,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q0\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":32},\"Item2\":{\"Line\":1,\"Column\":34}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":43},\"Item2\":{\"Line\":1,\"Column\":45}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Result\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"EntangleWithParticle\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":519,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"PerfectHalf\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":541,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"register\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":23},\"Item2\":{\"Line\":1,\"Column\":31}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"PerfectHalf\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":541,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"SetQubitState\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":561,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"desired\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":25},\"Item2\":{\"Line\":1,\"Column\":32}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":42},\"Item2\":{\"Line\":1,\"Column\":44}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Result\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"SetQubitState\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":561,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"MessageState\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":567,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"r\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":25}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Result\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"MessageState\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":567,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"MessageData\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":575,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"register\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":23},\"Item2\":{\"Line\":1,\"Column\":31}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"MessageData\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":575,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Duplicate01\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":319,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q0\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":23},\"Item2\":{\"Line\":1,\"Column\":25}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":34},\"Item2\":{\"Line\":1,\"Column\":36}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":45},\"Item2\":{\"Line\":1,\"Column\":47}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q3\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":56},\"Item2\":{\"Line\":1,\"Column\":58}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Duplicate01\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":319,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Duplicate23\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":338,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q0\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":23},\"Item2\":{\"Line\":1,\"Column\":25}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":34},\"Item2\":{\"Line\":1,\"Column\":36}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":45},\"Item2\":{\"Line\":1,\"Column\":47}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q3\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":56},\"Item2\":{\"Line\":1,\"Column\":58}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Duplicate23\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":338,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"DuplicatePairs\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":367,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":25}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q0\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":26},\"Item2\":{\"Line\":1,\"Column\":28}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":39}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":48},\"Item2\":{\"Line\":1,\"Column\":50}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q3\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":59},\"Item2\":{\"Line\":1,\"Column\":61}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"DuplicatePairs\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":367,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":25}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"PerfectQuarter\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":396,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":25}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q0\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":26},\"Item2\":{\"Line\":1,\"Column\":28}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":39}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":48},\"Item2\":{\"Line\":1,\"Column\":50}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q3\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":59},\"Item2\":{\"Line\":1,\"Column\":61}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"PerfectQuarter\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":396,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":25}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"HalfAndCollapse\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":408,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":26}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q0\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":27},\"Item2\":{\"Line\":1,\"Column\":29}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":38},\"Item2\":{\"Line\":1,\"Column\":40}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":49},\"Item2\":{\"Line\":1,\"Column\":51}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q3\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":60},\"Item2\":{\"Line\":1,\"Column\":62}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"HalfAndCollapse\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":408,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":26}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"CollapseTest\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":422,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q0\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":26}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":35},\"Item2\":{\"Line\":1,\"Column\":37}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":46},\"Item2\":{\"Line\":1,\"Column\":48}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q3\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":57},\"Item2\":{\"Line\":1,\"Column\":59}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"CollapseTest\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":422,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"TestDifference\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":445,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":25}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[\" 1. Collapse023 + Collapse1 [without the first four Hadamard gates] == Collapse0\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"TestDifference\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":445,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":25}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Entanglement\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":495,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Entanglement\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":495,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"RunEntangle\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":525,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"RunEntangle\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":525,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Entangle\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":555,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q0\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":20},\"Item2\":{\"Line\":1,\"Column\":22}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":31},\"Item2\":{\"Line\":1,\"Column\":33}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Result\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"Entangle\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":555,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"EntangleWithParticle\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":570,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q0\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":32},\"Item2\":{\"Line\":1,\"Column\":34}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":43},\"Item2\":{\"Line\":1,\"Column\":45}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Result\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"EntangleWithParticle\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":570,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"PerfectHalf\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":592,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"register\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":23},\"Item2\":{\"Line\":1,\"Column\":31}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"PerfectHalf\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":592,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"SetQubitState\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":606,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"desired\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":25},\"Item2\":{\"Line\":1,\"Column\":32}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":42},\"Item2\":{\"Line\":1,\"Column\":44}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Result\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"SetQubitState\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":606,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"MessageState\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":612,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"r\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":25}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Result\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"MessageState\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":612,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"MessageData\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":620,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"register\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":23},\"Item2\":{\"Line\":1,\"Column\":31}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.QDK_Playground\",\"Name\":\"MessageData\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\md_sh\\\\Desktop\\\\qdk\\\\playground.qs\\\\Program.qs\",\"Position\":{\"Item1\":620,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
 #line hidden
 namespace Quantum.QDK_Playground
 {
@@ -1276,10 +1284,10 @@ namespace Quantum.QDK_Playground
         }
     }
 
-    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 320, 340)]
-    public partial class CollapseAll : Operation<(Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)>, ICallable
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 320, 339)]
+    public partial class Duplicate01 : Operation<(Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)>, ICallable
     {
-        public CollapseAll(IOperationFactory m) : base(m)
+        public Duplicate01(IOperationFactory m) : base(m)
         {
         }
 
@@ -1319,8 +1327,8 @@ namespace Quantum.QDK_Playground
             }
         }
 
-        String ICallable.Name => "CollapseAll";
-        String ICallable.FullName => "Quantum.QDK_Playground.CollapseAll";
+        String ICallable.Name => "Duplicate01";
+        String ICallable.FullName => "Quantum.QDK_Playground.Duplicate01";
         protected IUnitary<Qubit> MicrosoftQuantumIntrinsicH
         {
             get;
@@ -1340,27 +1348,23 @@ namespace Quantum.QDK_Playground
             MicrosoftQuantumIntrinsicH.Apply(q0);
 #line 322 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 323 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicH.Apply(q2);
 #line 324 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 326 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicCNOT.Apply((q0, q2));
-#line 327 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 325 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicCNOT.Apply((q1, q2));
-#line 329 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 327 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 330 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 328 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 332 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 330 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicCNOT.Apply((q1, q3));
-#line 333 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 331 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicCNOT.Apply((q2, q3));
-#line 334 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 333 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 335 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 334 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 337 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 336 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             return (q0, q1, q2, q3);
         }
 
@@ -1375,11 +1379,395 @@ namespace Quantum.QDK_Playground
         public override IApplyData __dataOut((Qubit,Qubit,Qubit,Qubit) data) => new Out(data);
         public static System.Threading.Tasks.Task<(Qubit,Qubit,Qubit,Qubit)> Run(IOperationFactory __m__, Qubit q0, Qubit q1, Qubit q2, Qubit q3)
         {
-            return __m__.Run<CollapseAll, (Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)>((q0, q1, q2, q3));
+            return __m__.Run<Duplicate01, (Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)>((q0, q1, q2, q3));
         }
     }
 
-    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 340, 395)]
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 339, 368)]
+    public partial class Duplicate23 : Operation<(Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)>, ICallable
+    {
+        public Duplicate23(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class In : QTuple<(Qubit,Qubit,Qubit,Qubit)>, IApplyData
+        {
+            public In((Qubit,Qubit,Qubit,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item1;
+                    yield return Data.Item2;
+                    yield return Data.Item3;
+                    yield return Data.Item4;
+                }
+            }
+        }
+
+        public class Out : QTuple<(Qubit,Qubit,Qubit,Qubit)>, IApplyData
+        {
+            public Out((Qubit,Qubit,Qubit,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item1;
+                    yield return Data.Item2;
+                    yield return Data.Item3;
+                    yield return Data.Item4;
+                }
+            }
+        }
+
+        String ICallable.Name => "Duplicate23";
+        String ICallable.FullName => "Quantum.QDK_Playground.Duplicate23";
+        protected IUnitary<Qubit> MicrosoftQuantumIntrinsicH
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Qubit,Qubit)> MicrosoftQuantumIntrinsicCNOT
+        {
+            get;
+            set;
+        }
+
+        public override Func<(Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)> Body => (__in__) =>
+        {
+            var (q0,q1,q2,q3) = __in__;
+#line 340 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q0);
+#line 341 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q1);
+#line 342 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q2);
+#line 343 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q3);
+#line 345 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q0, q2));
+#line 346 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q1, q2));
+#line 348 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q0);
+#line 349 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q1);
+#line 351 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q1, q3));
+#line 352 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q2, q3));
+#line 354 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q2, q0));
+#line 355 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q3, q0));
+#line 357 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q2);
+#line 358 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q3);
+#line 360 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q0, q1));
+#line 361 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q3, q1));
+#line 363 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q0);
+#line 365 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            return (q0, q1, q2, q3);
+        }
+
+        ;
+        public override void Init()
+        {
+            this.MicrosoftQuantumIntrinsicH = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.H));
+            this.MicrosoftQuantumIntrinsicCNOT = this.Factory.Get<IUnitary<(Qubit,Qubit)>>(typeof(Microsoft.Quantum.Intrinsic.CNOT));
+        }
+
+        public override IApplyData __dataIn((Qubit,Qubit,Qubit,Qubit) data) => new In(data);
+        public override IApplyData __dataOut((Qubit,Qubit,Qubit,Qubit) data) => new Out(data);
+        public static System.Threading.Tasks.Task<(Qubit,Qubit,Qubit,Qubit)> Run(IOperationFactory __m__, Qubit q0, Qubit q1, Qubit q2, Qubit q3)
+        {
+            return __m__.Run<Duplicate23, (Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)>((q0, q1, q2, q3));
+        }
+    }
+
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 368, 397)]
+    public partial class DuplicatePairs : Operation<(Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)>, ICallable
+    {
+        public DuplicatePairs(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class In : QTuple<(Qubit,Qubit,Qubit,Qubit)>, IApplyData
+        {
+            public In((Qubit,Qubit,Qubit,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item1;
+                    yield return Data.Item2;
+                    yield return Data.Item3;
+                    yield return Data.Item4;
+                }
+            }
+        }
+
+        public class Out : QTuple<(Qubit,Qubit,Qubit,Qubit)>, IApplyData
+        {
+            public Out((Qubit,Qubit,Qubit,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item1;
+                    yield return Data.Item2;
+                    yield return Data.Item3;
+                    yield return Data.Item4;
+                }
+            }
+        }
+
+        String ICallable.Name => "DuplicatePairs";
+        String ICallable.FullName => "Quantum.QDK_Playground.DuplicatePairs";
+        protected IUnitary<Qubit> MicrosoftQuantumIntrinsicH
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Qubit,Qubit)> MicrosoftQuantumIntrinsicCNOT
+        {
+            get;
+            set;
+        }
+
+        public override Func<(Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)> Body => (__in__) =>
+        {
+            var (q0,q1,q2,q3) = __in__;
+#line 369 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q2);
+#line 370 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q3);
+#line 372 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q2, q0));
+#line 373 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q2, q1));
+#line 375 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q3, q0));
+#line 376 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q3, q1));
+#line 378 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q2);
+#line 379 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q3);
+#line 394 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            return (q0, q1, q2, q3);
+        }
+
+        ;
+        public override void Init()
+        {
+            this.MicrosoftQuantumIntrinsicH = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.H));
+            this.MicrosoftQuantumIntrinsicCNOT = this.Factory.Get<IUnitary<(Qubit,Qubit)>>(typeof(Microsoft.Quantum.Intrinsic.CNOT));
+        }
+
+        public override IApplyData __dataIn((Qubit,Qubit,Qubit,Qubit) data) => new In(data);
+        public override IApplyData __dataOut((Qubit,Qubit,Qubit,Qubit) data) => new Out(data);
+        public static System.Threading.Tasks.Task<(Qubit,Qubit,Qubit,Qubit)> Run(IOperationFactory __m__, Qubit q0, Qubit q1, Qubit q2, Qubit q3)
+        {
+            return __m__.Run<DuplicatePairs, (Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)>((q0, q1, q2, q3));
+        }
+    }
+
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 397, 409)]
+    public partial class PerfectQuarter : Operation<(Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)>, ICallable
+    {
+        public PerfectQuarter(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class In : QTuple<(Qubit,Qubit,Qubit,Qubit)>, IApplyData
+        {
+            public In((Qubit,Qubit,Qubit,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item1;
+                    yield return Data.Item2;
+                    yield return Data.Item3;
+                    yield return Data.Item4;
+                }
+            }
+        }
+
+        public class Out : QTuple<(Qubit,Qubit,Qubit,Qubit)>, IApplyData
+        {
+            public Out((Qubit,Qubit,Qubit,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item1;
+                    yield return Data.Item2;
+                    yield return Data.Item3;
+                    yield return Data.Item4;
+                }
+            }
+        }
+
+        String ICallable.Name => "PerfectQuarter";
+        String ICallable.FullName => "Quantum.QDK_Playground.PerfectQuarter";
+        protected IUnitary<Qubit> MicrosoftQuantumIntrinsicH
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Qubit,Qubit)> MicrosoftQuantumIntrinsicCNOT
+        {
+            get;
+            set;
+        }
+
+        public override Func<(Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)> Body => (__in__) =>
+        {
+            var (q0,q1,q2,q3) = __in__;
+#line 398 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q0);
+#line 400 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q0, q1));
+#line 402 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q1, q2));
+#line 404 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q2, q3));
+#line 406 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            return (q0, q1, q2, q3);
+        }
+
+        ;
+        public override void Init()
+        {
+            this.MicrosoftQuantumIntrinsicH = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.H));
+            this.MicrosoftQuantumIntrinsicCNOT = this.Factory.Get<IUnitary<(Qubit,Qubit)>>(typeof(Microsoft.Quantum.Intrinsic.CNOT));
+        }
+
+        public override IApplyData __dataIn((Qubit,Qubit,Qubit,Qubit) data) => new In(data);
+        public override IApplyData __dataOut((Qubit,Qubit,Qubit,Qubit) data) => new Out(data);
+        public static System.Threading.Tasks.Task<(Qubit,Qubit,Qubit,Qubit)> Run(IOperationFactory __m__, Qubit q0, Qubit q1, Qubit q2, Qubit q3)
+        {
+            return __m__.Run<PerfectQuarter, (Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)>((q0, q1, q2, q3));
+        }
+    }
+
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 409, 423)]
+    public partial class HalfAndCollapse : Operation<(Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)>, ICallable
+    {
+        public HalfAndCollapse(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class In : QTuple<(Qubit,Qubit,Qubit,Qubit)>, IApplyData
+        {
+            public In((Qubit,Qubit,Qubit,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item1;
+                    yield return Data.Item2;
+                    yield return Data.Item3;
+                    yield return Data.Item4;
+                }
+            }
+        }
+
+        public class Out : QTuple<(Qubit,Qubit,Qubit,Qubit)>, IApplyData
+        {
+            public Out((Qubit,Qubit,Qubit,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item1;
+                    yield return Data.Item2;
+                    yield return Data.Item3;
+                    yield return Data.Item4;
+                }
+            }
+        }
+
+        String ICallable.Name => "HalfAndCollapse";
+        String ICallable.FullName => "Quantum.QDK_Playground.HalfAndCollapse";
+        protected IUnitary<Qubit> MicrosoftQuantumIntrinsicH
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Qubit,Qubit)> MicrosoftQuantumIntrinsicCNOT
+        {
+            get;
+            set;
+        }
+
+        public override Func<(Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)> Body => (__in__) =>
+        {
+            var (q0,q1,q2,q3) = __in__;
+#line 410 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q0);
+#line 412 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q0, q1));
+#line 414 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q0, q2));
+#line 416 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q1, q3));
+#line 418 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q2, q3));
+#line 420 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            return (q0, q1, q2, q3);
+        }
+
+        ;
+        public override void Init()
+        {
+            this.MicrosoftQuantumIntrinsicH = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.H));
+            this.MicrosoftQuantumIntrinsicCNOT = this.Factory.Get<IUnitary<(Qubit,Qubit)>>(typeof(Microsoft.Quantum.Intrinsic.CNOT));
+        }
+
+        public override IApplyData __dataIn((Qubit,Qubit,Qubit,Qubit) data) => new In(data);
+        public override IApplyData __dataOut((Qubit,Qubit,Qubit,Qubit) data) => new Out(data);
+        public static System.Threading.Tasks.Task<(Qubit,Qubit,Qubit,Qubit)> Run(IOperationFactory __m__, Qubit q0, Qubit q1, Qubit q2, Qubit q3)
+        {
+            return __m__.Run<HalfAndCollapse, (Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)>((q0, q1, q2, q3));
+        }
+    }
+
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 423, 446)]
     public partial class CollapseTest : Operation<(Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)>, ICallable
     {
         public CollapseTest(IOperationFactory m) : base(m)
@@ -1439,43 +1827,23 @@ namespace Quantum.QDK_Playground
         public override Func<(Qubit,Qubit,Qubit,Qubit), (Qubit,Qubit,Qubit,Qubit)> Body => (__in__) =>
         {
             var (q0,q1,q2,q3) = __in__;
-#line 341 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 424 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 342 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 343 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 344 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 346 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicCNOT.Apply((q2, q0));
-#line 347 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicCNOT.Apply((q3, q0));
-#line 349 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 350 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 352 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 426 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicCNOT.Apply((q0, q1));
-#line 353 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicCNOT.Apply((q3, q1));
-#line 355 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 381 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 428 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicCNOT.Apply((q0, q2));
-#line 382 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicCNOT.Apply((q1, q2));
-#line 384 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 385 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 387 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 430 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicCNOT.Apply((q1, q3));
-#line 388 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 432 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicCNOT.Apply((q2, q3));
-#line 390 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 434 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 392 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 436 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q1);
+#line 438 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+            MicrosoftQuantumIntrinsicH.Apply(q2);
+#line 440 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             return (q0, q1, q2, q3);
         }
 
@@ -1494,7 +1862,7 @@ namespace Quantum.QDK_Playground
         }
     }
 
-    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 395, 445)]
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 446, 496)]
     public partial class TestDifference : Operation<QVoid, QVoid>, ICallable
     {
         public TestDifference(IOperationFactory m) : base(m)
@@ -1559,76 +1927,76 @@ namespace Quantum.QDK_Playground
 
         public override Func<QVoid, QVoid> Body => (__in__) =>
         {
-#line 396 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 447 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             var count = 1024L;
 #line hidden
             {
-#line 398 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 449 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                 var register = Allocate.Apply(2L);
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 399 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 450 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     var q0 = register[0L];
-#line 400 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 451 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     var q1 = register[1L];
-#line 402 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 453 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     var same = 0L;
-#line 403 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 454 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     var diff = 0L;
-#line 405 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 456 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     foreach (var test in new QRange(1L, count))
 #line hidden
                     {
-#line 406 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 457 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         SetQubitState.Apply((Result.Zero, q0));
-#line 408 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 459 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 409 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 460 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q0);
-#line 411 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 462 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         MicrosoftQuantumIntrinsicCNOT.Apply((q0, q1));
-#line 412 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 463 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         MicrosoftQuantumIntrinsicCNOT.Apply((q1, q0));
-#line 414 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 465 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         MicrosoftQuantumDiagnosticsDumpMachine.Apply("groupA.txt");
-#line 416 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 467 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         var firstValue = M.Apply(q0);
-#line 418 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 469 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         SetQubitState.Apply((Result.Zero, q0));
-#line 419 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 470 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         SetQubitState.Apply((Result.Zero, q1));
-#line 421 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 472 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 422 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 473 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q1);
-#line 424 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 475 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         MicrosoftQuantumIntrinsicCNOT.Apply((q0, q1));
-#line 425 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 476 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         MicrosoftQuantumIntrinsicCNOT.Apply((q1, q0));
-#line 427 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 478 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         MicrosoftQuantumDiagnosticsDumpMachine.Apply("groupB.txt");
-#line 429 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 480 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         var secondValue = M.Apply(q0);
-#line 431 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 482 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         if ((firstValue == secondValue))
                         {
-#line 432 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 483 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                             same = (same + 1L);
                         }
                         else
                         {
-#line 434 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 485 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                             diff = (diff + 1L);
                         }
                     }
 
-#line 438 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 489 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     Message.Apply(String.Format("{0}, {1}", same, diff));
-#line 440 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 491 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     SetQubitState.Apply((Result.Zero, q0));
-#line 441 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 492 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     SetQubitState.Apply((Result.Zero, q1));
                 }
 #line hidden
@@ -1674,7 +2042,7 @@ namespace Quantum.QDK_Playground
         }
     }
 
-    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 445, 475)]
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 496, 526)]
     public partial class Entanglement : Operation<QVoid, QVoid>, ICallable
     {
         public Entanglement(IOperationFactory m) : base(m)
@@ -1709,48 +2077,48 @@ namespace Quantum.QDK_Playground
 
         public override Func<QVoid, QVoid> Body => (__in__) =>
         {
-#line 446 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 497 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             var wantedState = Result.Zero;
 #line hidden
             {
-#line 448 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 499 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                 var register = Allocate.Apply(10L);
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 449 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 500 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     var tries = 0L;
-#line 450 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 501 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     var failures = 0L;
-#line 452 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 503 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     while (true)
                     {
-#line 453 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 504 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         var q0 = register[(2L * tries)];
-#line 454 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 505 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         var q1 = register[((2L * tries) + 1L)];
-#line 456 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 507 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         var measurements = (IQArray<Result>)Entangle.Apply((q0, q1));
-#line 457 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 508 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         var m0 = measurements[0L];
-#line 458 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 509 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         var m1 = measurements[1L];
-#line 460 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 511 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         if ((m0 != m1))
                         {
-#line 461 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 512 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                             Message.Apply("Error: m0 and m1 not equal :/");
-#line 462 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 513 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                             failures = (failures + 1L);
                         }
                         else
                         {
-#line 464 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 515 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                             Message.Apply(String.Format("{0}, {1}", m0, m1));
                         }
 
-#line 467 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 518 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         tries = (tries + 1L);
                         if (((m0 == wantedState) && (m1 == wantedState)))
                         {
@@ -1761,7 +2129,7 @@ namespace Quantum.QDK_Playground
                         }
                     }
 
-#line 471 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 522 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     Message.Apply(String.Format("{0}, {1}", tries, failures));
                 }
 #line hidden
@@ -1802,7 +2170,7 @@ namespace Quantum.QDK_Playground
         }
     }
 
-    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 475, 505)]
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 526, 556)]
     public partial class RunEntangle : Operation<QVoid, QVoid>, ICallable
     {
         public RunEntangle(IOperationFactory m) : base(m)
@@ -1837,48 +2205,48 @@ namespace Quantum.QDK_Playground
 
         public override Func<QVoid, QVoid> Body => (__in__) =>
         {
-#line 476 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 527 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             var wantedState = Result.Zero;
 #line hidden
             {
-#line 478 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 529 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                 var register = Allocate.Apply(10L);
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 479 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 530 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     var tries = 0L;
-#line 480 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 531 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     var failures = 0L;
-#line 482 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 533 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     while (true)
                     {
-#line 483 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 534 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         var q0 = register[(2L * tries)];
-#line 484 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 535 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         var q1 = register[((2L * tries) + 1L)];
-#line 486 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 537 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         var measurements = (IQArray<Result>)Entangle.Apply((q0, q1));
-#line 487 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 538 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         var m0 = measurements[0L];
-#line 488 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 539 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         var m1 = measurements[1L];
-#line 490 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 541 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         if ((m0 != m1))
                         {
-#line 491 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 542 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                             Message.Apply("Error: m0 and m1 not equal :/");
-#line 492 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 543 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                             failures = (failures + 1L);
                         }
                         else
                         {
-#line 494 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 545 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                             Message.Apply(String.Format("{0}, {1}", m0, m1));
                         }
 
-#line 497 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 548 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                         tries = (tries + 1L);
                         if (((m0 == wantedState) && (m1 == wantedState)))
                         {
@@ -1889,7 +2257,7 @@ namespace Quantum.QDK_Playground
                         }
                     }
 
-#line 501 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 552 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     Message.Apply(String.Format("{0}, {1}", tries, failures));
                 }
 #line hidden
@@ -1930,7 +2298,7 @@ namespace Quantum.QDK_Playground
         }
     }
 
-    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 505, 520)]
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 556, 571)]
     public partial class Entangle : Operation<(Qubit,Qubit), IQArray<Result>>, ICallable
     {
         public Entangle(IOperationFactory m) : base(m)
@@ -1982,23 +2350,23 @@ namespace Quantum.QDK_Playground
         public override Func<(Qubit,Qubit), IQArray<Result>> Body => (__in__) =>
         {
             var (q0,q1) = __in__;
-#line 506 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 557 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             SetQubitState.Apply((Result.Zero, q0));
-#line 507 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 558 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             SetQubitState.Apply((Result.Zero, q1));
-#line 509 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 560 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 510 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 561 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicCNOT.Apply((q0, q1));
-#line 511 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 562 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             var m0 = M.Apply(q0);
-#line 512 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 563 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             var m1 = M.Apply(q1);
-#line 514 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 565 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             SetQubitState.Apply((Result.Zero, q0));
-#line 515 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 566 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             SetQubitState.Apply((Result.Zero, q1));
-#line 517 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 568 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             return new QArray<Result>(m0, m1);
         }
 
@@ -2019,7 +2387,7 @@ namespace Quantum.QDK_Playground
         }
     }
 
-    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 520, 542)]
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 571, 593)]
     public partial class EntangleWithParticle : Operation<(Qubit,Qubit), IQArray<Result>>, ICallable
     {
         public EntangleWithParticle(IOperationFactory m) : base(m)
@@ -2065,21 +2433,21 @@ namespace Quantum.QDK_Playground
         public override Func<(Qubit,Qubit), IQArray<Result>> Body => (__in__) =>
         {
             var (q0,q1) = __in__;
-#line 521 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 572 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             SetQubitState.Apply((Result.Zero, q0));
-#line 523 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 574 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 527 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 578 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 533 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 584 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             var m0 = M.Apply(q0);
-#line 534 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 585 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             var m1 = M.Apply(q1);
-#line 536 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 587 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             SetQubitState.Apply((Result.Zero, q0));
-#line 537 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 588 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             SetQubitState.Apply((Result.Zero, q1));
-#line 539 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 590 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             return new QArray<Result>(m0, m1);
         }
 
@@ -2099,7 +2467,7 @@ namespace Quantum.QDK_Playground
         }
     }
 
-    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 542, 562)]
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 593, 607)]
     public partial class PerfectHalf : Operation<IQArray<Qubit>, IQArray<Qubit>>, ICallable
     {
         public PerfectHalf(IOperationFactory m) : base(m)
@@ -2108,12 +2476,6 @@ namespace Quantum.QDK_Playground
 
         String ICallable.Name => "PerfectHalf";
         String ICallable.FullName => "Quantum.QDK_Playground.PerfectHalf";
-        protected IUnitary<Qubit> MicrosoftQuantumIntrinsicX
-        {
-            get;
-            set;
-        }
-
         protected IUnitary<Qubit> MicrosoftQuantumIntrinsicH
         {
             get;
@@ -2129,36 +2491,25 @@ namespace Quantum.QDK_Playground
         public override Func<IQArray<Qubit>, IQArray<Qubit>> Body => (__in__) =>
         {
             var register = __in__;
-#line 543 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 594 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             var q0 = register[0L];
-#line 544 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 595 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             var q1 = register[1L];
-#line 545 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 596 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             var q2 = register[2L];
-#line 547 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicX.Apply(q2);
-#line 549 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 598 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 550 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 552 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 600 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicCNOT.Apply((q0, q1));
-#line 553 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicX.Apply(q1);
-#line 554 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 602 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             MicrosoftQuantumIntrinsicCNOT.Apply((q1, q2));
-#line 556 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 557 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
-            MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 559 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 604 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             return new QArray<Qubit>(q0, q1, q2);
         }
 
         ;
         public override void Init()
         {
-            this.MicrosoftQuantumIntrinsicX = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.X));
             this.MicrosoftQuantumIntrinsicH = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.H));
             this.MicrosoftQuantumIntrinsicCNOT = this.Factory.Get<IUnitary<(Qubit,Qubit)>>(typeof(Microsoft.Quantum.Intrinsic.CNOT));
         }
@@ -2171,7 +2522,7 @@ namespace Quantum.QDK_Playground
         }
     }
 
-    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 562, 568)]
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 607, 613)]
     public partial class SetQubitState : Operation<(Result,Qubit), QVoid>, ICallable
     {
         public SetQubitState(IOperationFactory m) : base(m)
@@ -2210,10 +2561,10 @@ namespace Quantum.QDK_Playground
         public override Func<(Result,Qubit), QVoid> Body => (__in__) =>
         {
             var (desired,q1) = __in__;
-#line 563 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 608 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             if ((desired != M.Apply(q1)))
             {
-#line 564 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 609 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                 MicrosoftQuantumIntrinsicX.Apply(q1);
             }
 
@@ -2236,7 +2587,7 @@ namespace Quantum.QDK_Playground
         }
     }
 
-    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 568, 576)]
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 613, 621)]
     public partial class MessageState : Operation<Result, QVoid>, ICallable
     {
         public MessageState(IOperationFactory m) : base(m)
@@ -2254,15 +2605,15 @@ namespace Quantum.QDK_Playground
         public override Func<Result, QVoid> Body => (__in__) =>
         {
             var r = __in__;
-#line 569 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 614 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             if ((r == Result.One))
             {
-#line 570 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 615 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                 Message.Apply("One");
             }
             else
             {
-#line 572 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 617 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                 Message.Apply("Zero");
             }
 
@@ -2284,7 +2635,7 @@ namespace Quantum.QDK_Playground
         }
     }
 
-    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 576, -1)]
+    [SourceLocation("C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs", OperationFunctor.Body, 621, -1)]
     public partial class MessageData : Operation<IQArray<Qubit>, QVoid>, ICallable
     {
         public MessageData(IOperationFactory m) : base(m)
@@ -2302,18 +2653,18 @@ namespace Quantum.QDK_Playground
         public override Func<IQArray<Qubit>, QVoid> Body => (__in__) =>
         {
             var register = __in__;
-#line 577 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 622 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             var message = "";
-#line 579 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 624 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
             foreach (var i in new QRange(0L, (register.Length - 1L)))
 #line hidden
             {
-#line 580 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 625 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                 message = (message + String.Format("v{0}", register[i]));
-#line 582 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 627 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                 if ((i != (register.Length - 1L)))
                 {
-#line 583 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
+#line 628 "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\Program.qs"
                     message = (message + ", ");
                 }
             }

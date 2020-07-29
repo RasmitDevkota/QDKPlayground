@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\playground.qs.csproj": {}
+    "c:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\playground.qs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\playground.qs.csproj": {
+    "c:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\playground.qs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\playground.qs.csproj",
+        "projectUniqueName": "c:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\playground.qs.csproj",
         "projectName": "playground.qs",
-        "projectPath": "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\playground.qs.csproj",
+        "projectPath": "c:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\playground.qs.csproj",
         "packagesPath": "C:\\Users\\md_sh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\obj\\",
+        "outputPath": "c:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

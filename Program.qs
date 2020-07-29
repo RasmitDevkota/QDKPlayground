@@ -317,7 +317,26 @@
         return (q0, q1, q2, q3);
     }
 
-    operation CollapseAll(q0: Qubit, q1: Qubit, q2: Qubit, q3: Qubit) : (Qubit, Qubit, Qubit, Qubit) {
+    operation Duplicate01(q0: Qubit, q1: Qubit, q2: Qubit, q3: Qubit) : (Qubit, Qubit, Qubit, Qubit) {
+        H(q0);
+        H(q1);
+
+        CNOT(q0, q2);
+        CNOT(q1, q2);
+
+        H(q0);
+        H(q1);
+
+        CNOT(q1, q3);
+        CNOT(q2, q3);
+            
+        H(q2);
+        H(q3);
+
+        return (q0, q1, q2, q3);
+    }
+
+    operation Duplicate23(q0: Qubit, q1: Qubit, q2: Qubit, q3: Qubit) : (Qubit, Qubit, Qubit, Qubit) {
         H(q0);
         H(q1);
         H(q2);
@@ -331,17 +350,6 @@
 
         CNOT(q1, q3);
         CNOT(q2, q3);
-        H(q2);
-        H(q3);
-
-        return (q0, q1, q2, q3);
-    }
-
-    operation CollapseTest(q0: Qubit, q1: Qubit, q2: Qubit, q3: Qubit) : (Qubit, Qubit, Qubit, Qubit) {
-        H(q0);
-        H(q1);
-        H(q2);
-        H(q3);
 
         CNOT(q2, q0);
         CNOT(q3, q0);
@@ -354,40 +362,80 @@
 
         H(q0);
 
-        ////////
+        return (q0, q1, q2, q3);
+    }
 
-        // H(q0);
-        // H(q1);
-        // H(q2);
-        // H(q3);
+    operation DuplicatePairs(q0: Qubit, q1: Qubit, q2: Qubit, q3: Qubit) : (Qubit, Qubit, Qubit, Qubit) {
+        H(q2);
+        H(q3);
 
-        // CNOT(q0, q3);
-        // CNOT(q1, q3);
+        CNOT(q2, q0);
+        CNOT(q2, q1);
 
-        // H(q0);
-        // H(q1);
-
-        // CNOT(q0, q2);
-        // CNOT(q3, q2); 
-
-        // H(q0);
+        CNOT(q3, q0);
+        CNOT(q3, q1);
+            
+        H(q2);
+        H(q3);
 
         /// Or
         // H(q0);
-        // H(q1);
-        // H(q2);
-        // H(q3);
+        
+        // CNOT(q0, q1);
 
-        CNOT(q0, q2);
+        // CNOT(q0, q2);
+        
+        // CNOT(q0, q3);
+
+        // CNOT(q1, q3);
+
+        // CNOT(q2, q3);
+
+        return (q0, q1, q2, q3);
+    }
+
+    operation PerfectQuarter(q0: Qubit, q1: Qubit, q2: Qubit, q3: Qubit) : (Qubit, Qubit, Qubit, Qubit) {
+        H(q0);
+        
+        CNOT(q0, q1);
+
         CNOT(q1, q2);
 
+        CNOT(q2, q3);
+
+        return (q0, q1, q2, q3);
+    }
+
+    operation HalfAndCollapse(q0: Qubit, q1: Qubit, q2: Qubit, q3: Qubit) : (Qubit, Qubit, Qubit, Qubit) {
         H(q0);
-        H(q1);
+        
+        CNOT(q0, q1);
+
+        CNOT(q0, q2);
 
         CNOT(q1, q3);
+
+        CNOT(q2, q3);
+
+        return (q0, q1, q2, q3);
+    }
+
+    operation CollapseTest(q0: Qubit, q1: Qubit, q2: Qubit, q3: Qubit) : (Qubit, Qubit, Qubit, Qubit) {
+        H(q0);
+        
+        CNOT(q0, q1);
+
+        CNOT(q0, q2);
+
+        CNOT(q1, q3);
+
         CNOT(q2, q3);
 
         H(q0);
+        
+        H(q1);
+
+        H(q2);
 
         return (q0, q1, q2, q3);
     }
@@ -547,17 +595,11 @@
         let q1 = register[1];
         let q2 = register[2];
 
-        X(q2);
-
         H(q0);
-        H(q1);
-
-        CNOT(q0, q1);
-        X(q1);
-        CNOT(q1, q2);
         
-        H(q0);
-        H(q1);
+        CNOT(q0, q1);
+
+        CNOT(q1, q2);
 
         return [q0, q1, q2];
     }
