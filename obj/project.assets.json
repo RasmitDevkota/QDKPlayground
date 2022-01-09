@@ -7877,25 +7877,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\md_sh\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Alien\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\playground.qs.csproj",
+      "projectUniqueName": "D:\\QDKPlayground\\playground.qs.csproj",
       "projectName": "playground.qs",
-      "projectPath": "c:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\playground.qs.csproj",
-      "packagesPath": "C:\\Users\\md_sh\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\md_sh\\Desktop\\qdk\\playground.qs\\obj\\",
+      "projectPath": "D:\\QDKPlayground\\playground.qs.csproj",
+      "packagesPath": "C:\\Users\\Alien\\.nuget\\packages\\",
+      "outputPath": "D:\\QDKPlayground\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\md_sh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alien\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -7908,6 +7909,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -7919,6 +7921,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.Quantum.CsharpGeneration": {
             "suppressParent": "All",
@@ -7965,7 +7968,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -26,7 +26,7 @@
                 SetQubitState(Zero, q2);
                 SetQubitState(Zero, q3);
 
-                set (q0, q1, q2, q3) = CollapseTest(q0, q1, q2, q3);
+                set (q0, q1, q2, q3) = Collapse01(q0, q1, q2, q3);
                 
                 
                 let v0 = M(q0);
