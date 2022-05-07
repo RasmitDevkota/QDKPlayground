@@ -10,7 +10,7 @@
     operation Main() : Unit {
         let count = 1024;
 
-        using (register = Qubit[4]) {
+        using register = Qubit[4] {
             mutable q0 = register[0];
             mutable q1 = register[1];
             mutable q2 = register[2];
@@ -20,7 +20,7 @@
 
             mutable message = "";
 
-            for (test in 1..count) {
+            for test in 1..count {
                 SetQubitState(Zero, q0);
                 SetQubitState(Zero, q1);
                 SetQubitState(Zero, q2);
@@ -36,7 +36,7 @@
 
                 let values = [v0, v1, v2, v3];
 
-                for (i in 0..Length(register) - 1) {
+                for i in 0..Length(register) - 1 {
                     if (values[i] == Zero) {
                         set results w/= i <- results[i] + 1;
                     }
@@ -45,7 +45,7 @@
                 DumpMachine("group.txt");
             }
 
-            for (i in 0..Length(register) - 1) {
+            for i in 0..Length(register) - 1 {
                 set message += $"v{i}: {results[i]}, {count - results[i]}";
 
                 if (i != Length(register) - 1) {
@@ -446,14 +446,14 @@
     operation TestDifference() : Unit {
         let count = 1024;
 
-        using (register = Qubit[2]) {
+        using register = Qubit[2] {
             mutable q0 = register[0];
             mutable q1 = register[1];
 
             mutable same = 0;
             mutable diff = 0;
 
-            for (test in 1..count) {
+            for test in 1..count {
                 SetQubitState(Zero, q0);
 
                 H(q0);
@@ -496,7 +496,7 @@
     operation Entanglement() : Unit {
         let wantedState = Zero;
 
-        using (register = Qubit[10]) {
+        using register = Qubit[10] {
             mutable tries = 0;
             mutable failures = 0;
 
@@ -526,7 +526,7 @@
     operation RunEntangle() : Unit {
         let wantedState = Zero;
 
-        using (register = Qubit[10]) {
+        using register = Qubit[10] {
             mutable tries = 0;
             mutable failures = 0;
 
@@ -621,7 +621,7 @@
     operation MessageData(register: Qubit[]) : Unit {
         mutable message = "";
 
-        for (i in 0..Length(register) - 1) {
+        for i in 0..Length(register) - 1 {
             set message += $"v{register[i]}";
 
             if (i != Length(register) - 1) {
